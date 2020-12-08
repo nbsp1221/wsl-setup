@@ -38,6 +38,7 @@ tasks() {
   sudo apt install -y nodejs
 
   # Install `Zsh` and `Oh My Zsh`
+  export RUNZSH='no'
   sudo apt install -y zsh
   sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
