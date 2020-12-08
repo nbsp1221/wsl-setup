@@ -44,7 +44,7 @@ tasks() {
 
   # Set `agnoster` theme for `Zsh`
   sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="agnoster"/g' ~/.zshrc
-  cat "$(pwd)/zshrc-settings" >> ~/.zshrc
+  cat "$(pwd)/settings/zshrc-settings" >> ~/.zshrc
 
   # Install plugins for `Zsh`
   git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
